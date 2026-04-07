@@ -1,0 +1,120 @@
+/* ================= MOBILE RESPONSIVE ================= */
+@media screen and (max-width: 768px){
+
+    /* General */
+    body{
+        font-size: 0.95rem;
+    }
+
+    section{
+        padding: 2rem 1rem;
+    }
+
+    /* Header */
+    .header-content{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .header-content .left-header{
+        justify-content: center;
+    }
+
+    .header-content .left-header .image{
+        width: 70%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .header-content .left-header .h-shape{
+        display: none;
+    }
+
+    .header-content .right-header{
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .header-content .right-header .name{
+        font-size: 2rem;
+    }
+
+    /* Controls (right side buttons) */
+    .controlls{
+        flex-direction: row;
+        top: auto;
+        bottom: 0;
+        right: 50%;
+        transform: translateX(50%);
+        background: var(--color-gray-5);
+        width: 100%;
+        padding: 0.5rem 0;
+    }
+
+    .controlls .control{
+        margin: 0.3rem;
+        width: 45px;
+        height: 45px;
+    }
+
+    /* About section */
+    .about-container{
+        grid-template-columns: 1fr;
+    }
+
+    .about-container .right-about{
+        grid-template-columns: 1fr;
+        padding-right: 0;
+    }
+
+    .about-stats .progress-bars{
+        grid-template-columns: 1fr;
+        margin-right: 0;
+    }
+
+    .about-stats .progress-bars .progress-con .progress{
+        width: 100%;
+    }
+
+    /* Portfolio */
+    .portfolios{
+        grid-template-columns: 1fr;
+        padding-right: 0;
+    }
+
+    /* Blogs */
+    .blogs{
+        grid-template-columns: 1fr;
+        padding-right: 0;
+    }
+
+    /* Contact */
+    .contact-content-con{
+        flex-direction: column;
+    }
+
+    .contact-content-con .right-contact{
+        padding-right: 0;
+        margin-left: 0;
+    }
+
+    .contact-content-con .right-contact .i-c-2{
+        flex-direction: column;
+    }
+
+    .contact-content-con .right-contact .i-c-2 input{
+        margin: 0.5rem 0;
+    }
+
+    /* Button */
+    button{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    /* Theme button */
+    .theme-btn{
+        width: 50px;
+        height: 50px;
+    }
+}
