@@ -370,10 +370,21 @@ section{
                     .github{
                         width: 70%;
                     }
+                    .dart{
+                        width: 30%;
+                    }
+                    .reactnative{
+                        width: 30%;
+                    }
                 }
             }
         }
     }
+}
+.about-status{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
 }
 /* portfolios*/
 .prot-text{
@@ -687,17 +698,7 @@ button{
             }
         }
     }
-.cursor {
-  width: 40px;
-  height: 40px;
-  background: var(--color-secondary);
-  border-radius: 50%;
-  position: fixed;
 
-  pointer-events: none;
-  transform: translate(-50%, -50%);
-  z-index: 9999;
-}
     /* ================= MOBILE RESPONSIVE ================= */
 @media screen and (max-width: 768px){
 
