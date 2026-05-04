@@ -51,7 +51,7 @@
 //     btn.disabled = false; // enable button again
 
 //     alert("Message sent successfully ✅");
-//     const cursor = document.querySelector(".cursor");
+//    
 
 
 // });
